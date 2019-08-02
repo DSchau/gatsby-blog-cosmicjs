@@ -10,7 +10,7 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-source-cosmicjs',
+      resolve: '@dschau/gatsby-source-cosmicjs',
       options: {
         bucketSlug: process.env.COSMIC_BUCKET || 'gatsby-blog-cosmic-js',
         objectTypes: ['posts','settings'],
